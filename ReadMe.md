@@ -2,7 +2,7 @@
 The Sample Superstore dataset contains information about orders from a retail superstore.
 
 ## Data Collection: 
-This contains the Sample Superstore dataset which we exported as csv file named retail_store.csv
+This contains the Sample Superstore dataset which we exported as csv file and edited with 100 rows and 15 columns from the whole dataset and renamed as retail_store.csv
       
 ## Website:
 
