@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+</head>
+<body style="background-color: #f3e0c4;">
+    
+    <h1 align ="center">Data from Sample - Superstore</h1>
+
+    <table border="1">
+        <tr>
+            <th>Row ID</th>
+            <th>Order ID</th>
+            <th>Order Date</th>
+            <th>Ship Date</th>
+            <th>Ship Mode</th>
+            <th>Customer ID</th>
+            <th>Customer Name</th>
+            <th>Segment</th>
+            <th>Country</th>
+            <th>City</th>
+            <th>State</th>
+            <th>Postal Code</th>
+            <th>Region</th>
+            <th>Product ID</th>
+            <th>Category</th>
+        </tr>
+        {% for r in retails[:10] %}
+            <tr>
+                <td>{{ r[0] }}</td>
+                <td>{{ r[1] }}</td>
+                <td>{{ r[2] }}</td>
+                <td>{{ r[3] }}</td>
+                <td>{{ r[4] }}</td>
+                <td>{{ r[5] }}</td>
+                <td>{{ r[6] }}</td>
+                <td>{{ r[7] }}</td>
+                <td>{{ r[8] }}</td>
+                <td>{{ r[9] }}</td>
+                <td>{{ r[10] }}</td>
+                <td>{{ r[11] }}</td>
+                <td>{{ r[12] }}</td>
+                <td>{{ r[13] }}</td>
+                <td>{{ r[14] }}</td>
+                <td>{{ r[15] }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
